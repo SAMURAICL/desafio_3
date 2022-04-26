@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+h1{
+    padding: 1rem;
+    border: 1rem;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+header{
+
+    background-image: url(./imgs/bg-header.jpg);
+    height: 50rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+p{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+section{
+
+
+    display: inline-block;
+    background-color: black;
+    color: white;
+    background-image: url(./imgs/iguana-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 5rem;
+    background-position-x: 90%;
+}
+
+section p{
+
+    padding: 3rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.menu{
+
+    padding: 5rem;
+    background-color:#1E1A13;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.submenu{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.Galery{
+    
+    text-align: center;
+    background-color: black;
+    
+}
+
+.Galery div{
+
+    display: inline-block;
+    width: 30%;
+    padding: 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+
+}
+
+img{
+
+    height: 300px;
+    width: 100%;
+}
+
+footer{
+
+    
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #1E1A13;
+    text-align: center;
+    height: 3rem;
+    padding-top: 30px;
+    color: aliceblue;
+}
